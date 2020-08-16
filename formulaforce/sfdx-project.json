@@ -12,6 +12,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "49.0",
     "packageAliases": {
-        "FormulaForce App": "0Ho2w0000004CTsCAM"
+        "FormulaForce App": "0Ho2w0000004CTsCAM",
+        "FormulaForce App@0.1.0-1": "04t2w000007To2sAAC"
     }
 }
