@@ -6,23 +6,23 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contestant__c.DNF__c</field>
+        <field>Contestant__c.Qualification1LapTime__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contestant__c.Driver__c</field>
+        <field>Contestant__c.Qualification2LapTime__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Driver__c.Active__c</field>
+        <field>Contestant__c.Qualification3LapTime__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Driver__c.Nationality__c</field>
-        <readable>false</readable>
+        <field>Race__c.PolePositionLapTime__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
