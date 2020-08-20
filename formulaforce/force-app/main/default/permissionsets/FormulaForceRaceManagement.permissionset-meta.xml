@@ -237,7 +237,7 @@
     </objectPermissions>
     <tabSettings>
         <tab>Car__c</tab>
-        <visibility>Available</visibility>
+        <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
         <tab>Driver__c</tab>
