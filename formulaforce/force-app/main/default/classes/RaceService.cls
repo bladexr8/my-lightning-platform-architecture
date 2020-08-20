@@ -1,6 +1,6 @@
 public with sharing class RaceService 
 {
-	public static void awardChampionshipPoints(Set<Id> raceIds)
+	/* public static void awardChampionshipPoints(Set<Id> raceIds)
 	{
 		// Mark the start of the database
 		System.Savepoint serviceSavePoint = Database.setSavePoint();
@@ -12,16 +12,28 @@ public with sharing class RaceService
 			// Pass the excpetion on for the caller to handle
 			throw e;
 		}
-	}
+	} */
 
+	
 	public static Map<Id, List<ProvisionalResult>> calculateProvisionalResults(Set<Id> raceIds) {
-		// Implementation
-		return null;
+		return service().calculateProvisionalResults(raceIds);
 	}
 
 	public static void applyRaceResults(Map<Id, List<ProvisionalResult>> provisionalResultsByRaceId) {
-		// implementation
+		service().applyRaceResults(provisionalResultsByRaceId);
 	}
+
+	public static void awardChampionshipPoints(Set<Id> raceIds) {
+		service().awardChampionshipPoints(raceIds);
+	}
+
+	// instantiate Implemented class for Race Service
+	private static IRaceService service() {
+		return (IRaceService) Application.Service.newInstance(IRaceService.class);
+	}
+
+	public class RaceServiceException extends Exception {} 	
+
 
 	// inner class
 	public class ProvisionalResult {
