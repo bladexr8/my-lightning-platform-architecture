@@ -10,9 +10,10 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Race Management</label>
     <navType>Standard</navType>
+    <tabs>Season__c</tabs>
     <tabs>Race__c</tabs>
     <tabs>Driver__c</tabs>
-    <tabs>Season__c</tabs>
+    <tabs>Car__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Race_Management_UtilityBar</utilityBar>
 </CustomApplication>
