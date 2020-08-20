@@ -165,11 +165,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Driver__c.FIA_Super_Licence__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Driver__c.Nationality__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -3,7 +3,7 @@ public class SeasonController
     @AuraEnabled
     public static void sendNewsletter(Id seasonId) {
         try {
-            SeasonService.issueNewsLetters(null);        
+            // SeasonService.issueNewsLetters(null);        
         } catch (Exception e) {
             Application.throwAuraHandledException(e);
         }

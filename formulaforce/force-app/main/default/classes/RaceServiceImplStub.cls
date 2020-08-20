@@ -1,6 +1,6 @@
 public inherited sharing class RaceServiceImplStub implements IRaceService {
     
-    public Map<Id, List<RaceService.ProvisionalResult>> calculateProvisionResults(Set<Id> raceIds) {
+    public Map<Id, List<RaceService.ProvisionalResult>> calculateProvisionalResults(Set<Id> raceIds) {
         
         // Dummy behaviour to allow the client to be developed 
         //    independent of the main service implementation 

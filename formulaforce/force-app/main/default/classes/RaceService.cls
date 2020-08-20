@@ -40,6 +40,6 @@ public with sharing class RaceService
 		public Integer racePosition { get; set; }
 		public Id contestantId { get; set; }
 		// can't be set by caller, but can be returned
-		public String contestName { get; private set; }
+		public String contestantName { get; set; }
 	}
 }

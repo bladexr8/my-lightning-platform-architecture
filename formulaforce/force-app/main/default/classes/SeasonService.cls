@@ -13,7 +13,7 @@ public with sharing class SeasonService
 		throw new SeasonServiceException('Not implemented');
 	}
 
-	public static void updateStandings(List<UpdateStandings> uodateStandings) {
+	public static void updateStandings(List<UpdateStandings> updateStandings) {
 		throw new SeasonServiceException('Not implemented');
 	}
 
@@ -27,7 +27,7 @@ public with sharing class SeasonService
 		fflib_IsObjectUnitOfWork uow = Application.UnitOfWork.newInstance();
 
 		Map<String, Driver__c> driversById = new Map<String, Driver__c>();
-		for(DriverData driverData : seasonData.drivers) {
+		for(DriverData driverData : seasonsData.drivers) {
 			// Create Driver__c record
 			Driver__c driver = new Driver__c(
 				Name = driverData.name,
@@ -77,6 +77,12 @@ public with sharing class SeasonService
 	}
 
 	public class SeasonServiceException extends Exception {}
+
+	public class UpdateStandings {
+		public Id seasonId;
+		public Boolean issueNewsLetter;
+
+	}
 
 	public class SeasonsData {
 		public List<DriverData> drivers;
