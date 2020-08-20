@@ -24,7 +24,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>FIA_Super_Licence__c</field>
+                <field>FIASuperLicence__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
