@@ -1,4 +1,10 @@
-public inherited sharing class Cars extends ApplicationDomain 
+public inherited sharing class Cars {
+    public Cars() {
+
+    }    
+}
+
+/* public inherited sharing class Cars extends ApplicationDomain 
     implements ComplianceService.ICompliant {
 
     public List<ComplianceService.VerifyResult> verifyCompliance() {
@@ -20,4 +26,4 @@ public inherited sharing class Cars extends ApplicationDomain
     public Cars() {
 
     }
-}
+} */

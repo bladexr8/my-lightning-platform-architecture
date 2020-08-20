@@ -1,6 +1,6 @@
 public class Application {
 
-    public static final fflib_Application.DomainFactory Domain = 
+    /* public static final fflib_Application.DomainFactory Domain = 
         new fflib_Application.DomainFactory(
             Application.Selector,
             // Map SObjectType to Domain Class Constructors
@@ -9,7 +9,7 @@ public class Application {
                 Car__c.SObjectType => Cars.Constructor.class,
                 Driver__c.SObjectType => Drivers.Constructor.class
             }
-        ); 
+        ); */
 
     public Application() {
 

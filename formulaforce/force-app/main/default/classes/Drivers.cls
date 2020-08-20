@@ -1,4 +1,11 @@
-public inherited sharing class Drivers extends ApplicationDomain
+public inherited sharing class Drivers {
+    public Drivers() {
+
+    }  
+}
+
+
+/* public inherited sharing class Drivers extends ApplicationDomain
     implements ComplianceService.ICompliant {
 
     public List<ComplianceService.VerifyResult> verifyCompliance() {
@@ -17,4 +24,4 @@ public inherited sharing class Drivers extends ApplicationDomain
     public Drivers() {
 
     }
-}
+} */

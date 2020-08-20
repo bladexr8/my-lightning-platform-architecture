@@ -24,7 +24,7 @@ public with sharing class ComplianceService {
         public String failureReason;
     }
 
-    public static void verify(Set<Id> recordIds) {
+    /* public static void verify(Set<Id> recordIds) {
         // Query the given records and delegate to the
         // corresponding Domain class to check
         // compliance and report failures
@@ -51,7 +51,7 @@ public with sharing class ComplianceService {
             }
             throw new ComplianceException('Unable to verify compliance', null);
         }
-    }
+    } */
     
     public ComplianceService() {
         // Constructor
