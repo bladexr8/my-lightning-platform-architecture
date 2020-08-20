@@ -9,7 +9,7 @@ public class Application {
                 Car__c.SObjectType => Cars.Constructor.class,
                 Driver__c.SObjectType => Drivers.Constructor.class
             }
-        );
+        ); 
 
     public Application() {
 

@@ -1,5 +1,7 @@
-public with sharing class SeasonService {
-    public SeasonService() {
-
-    }
+public class SeasonService 
+{
+	public static void issueNewsLetters(Set<Id> seasonIds)
+	{
+		
+	}
 }

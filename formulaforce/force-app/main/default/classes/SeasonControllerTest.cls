@@ -1,5 +1,9 @@
-public with sharing class SeasonControllerTest {
-    public SeasonControllerTest() {
-
-    }
+@isTest
+private class SeasonControllerTest 
+{	
+	@isTest static void testNewsletter()
+	{
+		// TODO: Stub test
+		new SeasonController(null).sendNewsletter();
+	}
 }

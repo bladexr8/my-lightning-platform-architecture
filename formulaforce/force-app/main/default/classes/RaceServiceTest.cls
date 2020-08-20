@@ -1,5 +1,9 @@
-public with sharing class RaceServiceTest {
-    public RaceServiceTest() {
-
-    }
+@isTest
+private class RaceServiceTest 
+{	
+	@isTest static void testAwardPoints()
+	{
+		// TODO: Stub test
+		RaceService.awardChampionshipPoints(null);
+	}
 }

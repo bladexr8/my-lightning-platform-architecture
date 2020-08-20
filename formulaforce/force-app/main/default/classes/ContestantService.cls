@@ -1,5 +1,7 @@
-public with sharing class ContestantService {
-    public ContestantService() {
-
-    }
+public class ContestantService 
+{
+	public static void awardChampionshipPoints(Set<Id> contestantIds)
+	{
+		
+	}
 }

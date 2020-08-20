@@ -1,5 +1,9 @@
-public with sharing class ContestantControllerTest {
-    public ContestantControllerTest() {
-
-    }
+@isTest
+private class ContestantControllerTest 
+{	
+	@isTest static void testAwardPoints()
+	{
+		// TODO: Stub test
+		new ContestantController(null).awardPoints();
+	}
 }
