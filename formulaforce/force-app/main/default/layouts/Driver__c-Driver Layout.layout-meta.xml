@@ -26,6 +26,10 @@
                 <behavior>Edit</behavior>
                 <field>FIASuperLicence__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DriverId__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

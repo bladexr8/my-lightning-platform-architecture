@@ -66,7 +66,7 @@ public with sharing class SeasonService
 					);
 					// Add to Unit Of Work and establish links to Race & Driver
 					uow.registerNew(contestant, Contestant__c.Race__c, race);
-					uow.registerRelationship(contestant, Contestant.Driver__c, 
+					uow.registerRelationship(contestant, Contestant__c.Driver__c, 
 						driversById.get(contestantData.driverId));
 				}
 			}
