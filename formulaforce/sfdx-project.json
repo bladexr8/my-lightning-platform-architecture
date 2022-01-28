@@ -2,10 +2,17 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
+            "default": true,
+            "package": "FormulaForce App v2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "namespace": "spmArchOrg",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "53.0"
+    "sourceApiVersion": "53.0",
+    "packageAliases": {
+        "FormulaForce App v2": "0Ho2w000000KzLVCA0",
+        "FormulaForce App v2@0.1.0-1": "04t2w000009YJ95AAG"
+    }
 }
